@@ -1,7 +1,7 @@
 LaTeX-template
 ===
-[Latest PDF Version](releases/latest/download/latex-template.pdf)
-[![Build LaTeX](actions/workflows/build.yml/badge.svg)](actions/workflows/build.yml)
+[Latest PDF Version](https://github.com/The-Ludwig/latex-template/releases/latest/download/latex-template.pdf)
+[![Build LaTeX](https://github.com/The-Ludwig/latex-template/actions/workflows/build.yml/badge.svg)](https://github.com/The-Ludwig/latex-template/actions/workflows/build.yml)
 
 Template for a reproducable LaTeX workflow using texlive, latexmk, make and automated builds.
 
