@@ -2,6 +2,7 @@ LaTeX-template
 ===
 [Latest PDF Version](releases/latest/download/latex-template.pdf)
 [![Build LaTeX](actions/workflows/build.yml/badge.svg)](actions/workflows/build.yml)
+
 Template for a reproducable LaTeX workflow using texlive, latexmk, make and automated builds.
 
 This can be either used for normal documents or for beamer slides.
