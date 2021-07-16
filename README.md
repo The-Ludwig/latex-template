@@ -5,6 +5,8 @@ LaTeX-template
 
 Template for a reproducable LaTeX workflow using texlive, latexmk, make and automated builds.
 
+*Remember to replace the paths in this README.md file, so you use your own batches*
+
 This can be either used for normal documents or for beamer slides.
 Please look into the comments of `main.tex` to see how to setup beamer. 
 
