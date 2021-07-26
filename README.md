@@ -25,3 +25,7 @@ make work
 You need 
 - texlive 
 - make
+
+# Credits
+As with all of my LaTeX stuff: Since I learned it thanks to the [PeP Toolbox Workshop](https://toolbox.pep-dortmund.org/)
+you will proably find a lot of copied code from their workshop. If you want to learn LaTeX and speak German, have a look at their awesome resources! :)
