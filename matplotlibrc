@@ -4,7 +4,7 @@ text.usetex               : True
 pgf.texsystem             : lualatex
 font.family               : sans
 pgf.rcfonts               : False
-pgf.preamble              : \usepackage{siunitx}
+pgf.preamble              : \input{matplotlib_header.tex}
 figure.figsize            : 5, 5
 
 # Custom decimal separator (based on locale)

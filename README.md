@@ -5,10 +5,9 @@ LaTeX-template
 
 Template for a reproducable LaTeX workflow using texlive, latexmk, make and automated builds.
 
-**Remember to replace the paths in this README.md file, so you use your own batches**
+**Remember to replace the paths in this README.md file, so you use your own badges**
 
-This can be either used for normal documents or for beamer slides.
-Please look into the comments of `main.tex` to see how to setup beamer. 
+This can be either used for normal documents or for beamer slides (see below).
 
 # Building
 To produce the output to `build/main.pdf` simply run
@@ -20,6 +19,20 @@ To use continuous building (i.e. while working on the document) use
 ```sh
 make work
 ```
+
+# Beamer
+You can also use this template to produce slides with `beamer`.
+For that simply rename `main_beamer.tex` to `main.tex`. 
+You can delete `header.tex` and the original `main.tex`. 
+
+# Matplotlib
+In order to make python's [matplotlib](https://matplotlib.org/) produce plots 
+which are compatible with the style of this latex template (fonts, using `siunitx`, etc), 
+there is a `matplotlibrc` file and `matplotlib_header.tex`. Simply copy these files 
+to where you run python. 
+
+## Note
+Your plots will take a longer time to produce with this.
 
 # Dependencies 
 You need 
